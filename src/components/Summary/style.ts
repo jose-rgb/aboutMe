@@ -48,6 +48,12 @@ export const Paragraph= styled.p`
             width: 16em;
         }
     }
+
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+       width: 99%;
+       font-size: 1.4em;
+    }
 `
 
 export const Terminal = styled.div`
