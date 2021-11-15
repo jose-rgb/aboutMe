@@ -9,9 +9,9 @@ export const Container = styled.header`
     justify-content: space-between;
 
     h1 {
+        margin-top: 6rem;
         font-family: 'Arvo', serif;
         font-weight: 400;
-        margin-top: 6rem;
         color: #6ac576;
         transition: box-shadow 0.2s;
         text-shadow: -1px 0 black, 0 1px black,
@@ -21,7 +21,7 @@ export const Container = styled.header`
 
 
     img {
-        margin-top: 0.5rem;
+        margin-top: 4rem;
         width: 230px;
         height: 230px;
         border-radius: 50%;
@@ -41,5 +41,14 @@ export const Container = styled.header`
 
     img {
         animation: neon 3s alternate infinite ease-in-out;
+    }
+
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        justify-content: center;
+        h1 {
+            display: none;
+           
+        }
     }
 `

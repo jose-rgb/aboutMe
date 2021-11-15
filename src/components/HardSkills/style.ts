@@ -62,4 +62,10 @@ export const CardTechs = styled.div`
     font-family: 'Varela Round', sans-serif;
     color: #b7e7bd;
   }
+
+  @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        width: 66vw;
+        height: 8vh;
+    }
 `

@@ -44,7 +44,7 @@ export function Contact() {
         return(
             <Container>
              
-              <div>
+              <div className="animationDev">
                 <Lottie options={defaultOptionsAnimationDev}
                   height={250}
                   width={250}

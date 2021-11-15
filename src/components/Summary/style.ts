@@ -21,7 +21,6 @@ export const Container = styled.div`
 `
 
 export const Paragraph= styled.p`
-    max-width: 780px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 1.6em;
@@ -84,5 +83,9 @@ export const Terminal = styled.div`
 
     }
 
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+       width: 99%;
+    }
     
 `

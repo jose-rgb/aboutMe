@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    margin-top: 4rem;
+    margin-top: 9.5rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -12,6 +12,14 @@ export const Container = styled.div`
         font-family: 'Heebo', sans-serif;
         font-weight: 400;
     }
+
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        .animationDev {
+             display: none;
+        }
+    }
+    
 `
 export const Info = styled.div`
     display: flex;
@@ -30,6 +38,10 @@ export const Info = styled.div`
         margin-bottom: 0;
     }
 
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        margin-left: 0;
+    }
 `
 
 export const Redes = styled.div`
