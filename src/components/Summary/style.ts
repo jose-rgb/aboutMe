@@ -5,93 +5,62 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
-    
-    
-    @keyframes blinkCursor {
-        from{
-            border-right-color: #b7e7bd;
-        }
-        to {
-            border-right-color: transparente;
-        }
-    }
-
-    
 `
-
-export const Paragraph= styled.p`
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 1.6em;
-    color: #b7e7bd;
-    border-right: 3px solid #b7e7bd;
-    animation: blinkCursor 700ms infinite normal, typyng 5s steps(40) 0s normal both;
-    white-space: nowrap;
-    overflow: hidden;
-    padding: 8px;
-    
-    @keyframes blinkCursor {
-        from{
-            border-right-color: #b7e7bd;
-        }
-        to {
-            border-right-color: transparent;
-        }
-    }
-
-    @keyframes typyng {
-        from{
-            width: 0;
-        }
-        to {
-            width: 16em;
-        }
-    }
-
-    @media only screen and (max-width: 768px) {
-        /* For mobile phones: */
-       width: 99%;
-       font-size: 1.4em;
-    }
-`
-
-export const Terminal = styled.div`
-    margin-top: 1.4rem;
-    background: #14111d;
+export const Content = styled.div`
     width: 70%;
-    height: 6rem;
-    border-radius: 8px;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-    header {
-        width: 100%;
-        height: 2.2rem;
-        background: #292828;
+    #texts {
+        //margin-top: -50px;
+        margin-bottom: 140px;
+    }
+    
+    a {
+        text-decoration: none;
         display: flex;
         align-items: center;
-        justify-content: flex-start;
-        border-radius: 4px;
-
-        div {
-            background: red;
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            margin: 3px;
-        }
-
-        .yellow {
-            background: #d1d131;
-        }
-        .green {
-            background: #53d832;
-        }
-
+        justify-content: center;
+        flex-direction: column;
     }
 
-    @media only screen and (max-width: 768px) {
-        /* For mobile phones: */
-       width: 99%;
+    #imgArrow {
+        margin-top: -40px;
     }
-    
 `
+
+export const Text = styled.div`
+    font-size: 42px;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    color: #FFFFFF; 
+
+    span {
+        color: #0000FF;
+    }
+`;
+
+export const TextUpper = styled.div`
+    font-size: 52px;
+    font-family: 'Rye', cursive;
+    font-weight: 400;
+    color: #FFFFFF; 
+`
+export const ButtonFake = styled.div`
+    background: #0000FF;
+    padding: 1.8rem;
+    border-radius: 25px;
+    width: 70%;
+
+    
+
+    span {
+        font-family: 'Arvo', serif;
+        font-weight: 400;
+        text-decoration: none;
+        font-size: 22px;
+        color: #FFFFFF;
+    }
+`;

@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
     body {
         width: 100vw;
         height: 100vh;
-        background: #312A47;
+        background: #252525;
         //dating fonts
         -webkit-font-smoothing: antialiased;
     }
