@@ -22,6 +22,7 @@ export const GlobalStyle = createGlobalStyle`
         background: #252525;
         //dating fonts
         -webkit-font-smoothing: antialiased;
+        /*overflow-x: hidden;*/
     }
     
 `

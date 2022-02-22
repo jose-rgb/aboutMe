@@ -28,6 +28,7 @@ export function Summary() {
     const [ animationState,setanimationState] = useState({
         isStopped: false, isPaused: false
     })
+    
     return (
         <>
            <Container>
@@ -44,8 +45,8 @@ export function Summary() {
 
                         <div id="imgArrow">
                             <Lottie options={defaultOptionsAnimationArrow}
-                                height={150}
-                                width={150}
+                                height={120}
+                                width={120}
                                 isStopped={animationState.isStopped}
                                 isPaused={animationState.isPaused}
                             />

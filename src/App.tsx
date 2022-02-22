@@ -2,8 +2,8 @@ import { GlobalStyle } from "./style/global";
 import { Header } from "./components/Header";
 import { Summary } from "./components/Summary";
 import { AboutMe } from "./components/AboutMe";
-//import { Contact } from "./components/Contact";
-
+import { Differentials } from "./components/Differentials";
+import { Contact } from "./components/Contact";
 
 export function App() {
   return(
@@ -12,6 +12,8 @@ export function App() {
       <Header/>
       <Summary />
       <AboutMe />
+      <Differentials />
+      <Contact />
     </>
   )
 }

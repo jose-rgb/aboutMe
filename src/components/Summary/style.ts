@@ -14,8 +14,7 @@ export const Content = styled.div`
     justify-content: space-between;
 
     #texts {
-        //margin-top: -50px;
-        margin-bottom: 140px;
+        margin-bottom: 2rem;
     }
     
     a {
@@ -27,7 +26,7 @@ export const Content = styled.div`
     }
 
     #imgArrow {
-        margin-top: -40px;
+        margin-top: -30px;
     }
 `
 
@@ -38,7 +37,7 @@ export const Text = styled.div`
     color: #FFFFFF; 
 
     span {
-        color: #0000FF;
+        color: #87cefa;
     }
 `;
 
@@ -49,18 +48,17 @@ export const TextUpper = styled.div`
     color: #FFFFFF; 
 `
 export const ButtonFake = styled.div`
-    background: #0000FF;
-    padding: 1.8rem;
+    background: #87cefa;
+    padding: 1rem;
     border-radius: 25px;
     width: 70%;
-
-    
+    text-align: center;
 
     span {
         font-family: 'Arvo', serif;
         font-weight: 400;
         text-decoration: none;
-        font-size: 22px;
-        color: #FFFFFF;
+        font-size: 1.2rem;
+        color: #0000FF;
     }
 `;

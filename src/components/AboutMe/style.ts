@@ -7,6 +7,7 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    user-select: none;
 
     h2 {
         font-size: 32px;
@@ -29,7 +30,7 @@ export const Container = styled.div`
         }
 
         h2 {
-            font-family: 'Rye', cursive;
+            font-family: 'Arvo', serif;
             font-weight: 400;
             color: #fff3f3; 
         }
@@ -46,7 +47,7 @@ export const Text = styled.div`
     color: #FFFFFF;
     font-family: 'Arvo', serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 24px; 
     text-shadow: -1px 0 black, 0 1px black,
       1px 0 black, 0 -1px black;
 

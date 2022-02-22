@@ -8,11 +8,11 @@ export const Container = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    font-size: 26px;
+    
+    font-size: 24px;
     font-family: 'Arvo', serif;
     font-weight: 400;
-    color: #FFFFFF; 
+    color: #fff3f3; 
 
     #logo {
         font-size: 34px;
@@ -20,13 +20,14 @@ export const Container = styled.header`
 
     a {
         text-decoration: none;
-        color: #FFFFFF; 
+        color: #a09b9b; 
         border-bottom: none;
-        //transition: 1s;
+        transition: .3s;
     }
 
     a:hover {
-        border-bottom: 2.7px solid #0000FF
+        border-bottom: 2.7px solid #87cefa;
+        color: #FFFFFF; 
     }
 
     div {
